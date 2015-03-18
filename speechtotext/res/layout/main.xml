@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<Button
+		android:layout_height="wrap_content"
+		style="?android:attr/buttonStyleSmall"
+		android:text="Input Text"
+		android:layout_width="match_parent"
+		android:onClick="stt"/>
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/mainTextView1"/>
+
+	</ScrollView>
+
+</LinearLayout>
+
